@@ -15,8 +15,8 @@ const Poll2 = () => {
     ]
 
     const selectedOption = (obj) => {
-setButtonHide(!buttonHide)
-setHide(!hide)
+setButtonHide(true)
+setHide(true)
         const totalVotes = 24
 
         const details = pollData.find((item) => item.id == obj.id)
